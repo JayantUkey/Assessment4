@@ -1,0 +1,11 @@
+Image Creation:    docker build -t spring-boot-docker-assessment.jar
+
+Run Image:         docker run -p 9090:8080 spring-boot-docker-assessment.jar
+
+tag image:        docker tag spring-boot-docker-exam.jar jayantukey/spring-boot-docker-assessment.jar
+
+Pushing image:    docker push spring-boot-docker-exam.jar jayantukey/spring-boot-docker-assessment.jar
+
+Pull image:       docker pull spring-boot-docker-exam.jar jayantukey/spring-boot-docker-assessment.jar
+
+run image:        docker run -p 9090:8080 jayantukey/spring-boot-docker-assessment.jar
